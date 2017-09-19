@@ -1,0 +1,1 @@
+PROGRAM WRITELINE;BEGIN    WRITELN ( 'Hello. Welcome to my pascal compiler.' ) ;END.

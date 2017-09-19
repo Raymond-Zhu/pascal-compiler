@@ -1,0 +1,1 @@
+PROGRAM IFELSE;var x , y : integer ;BEGIN    x := 1 ;    y := x * 4 ;    IF y > 3 THEN        WRITELN ( 'y > 3' ) ;    else        WRITELN ( 'y <= 3' ) ;END.

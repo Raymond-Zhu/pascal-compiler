@@ -1,0 +1,1 @@
+PROGRAM TESTFOR;var x , y : integer ;BEGIN    FOR x := 1 ; TO 50 DO        IF x <= 25 THEN            WRITELN ( 'LESS THAN 25' ) ;        ELSE            WRITELN ( 'GREATER THAN 25' ) ;END.

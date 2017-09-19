@@ -1,0 +1,1 @@
+PROGRAM loop;var a , b : integer;BEGIN    a := 0 ;    b := 0 ;    REPEAT        a := a + 2;        b := b + 1;    UNTIL a > 10;END.

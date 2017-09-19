@@ -1,0 +1,1 @@
+PROGRAM FACTORIAL;var a , b , c : integer ;BEGIN    a := 10 ;    b := 1 ;    c := 1 ;    WHILE a >= b DO        c := c * b ;        b := b + 1;END.

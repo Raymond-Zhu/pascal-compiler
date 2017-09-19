@@ -1,0 +1,1 @@
+PROGRAM WHILEIF;var x , y, z  : integer ;BEGIN    x := 0 ;    y := 0 ;    z := 1 ;    WHILE y < 10 DO        if x < 123 THEN            x := x + 5 ;            z := z * 2 ;        y := y + 1 ;END.

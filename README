@@ -1,0 +1,14 @@
+Jun Hao Zhu
+Pascal Compiler Written in Go.
+
+To run compiler just pick the compiler for your OS e.g. for Linux 64bit do
+    bin/compiler-linux-64bit examples/assignment.pas
+    bin/compiler-linux-64bit examples/if.pas
+
+To compile from source,
+    Download and install Go.   https://golang.org/doc/install
+    Set $GOPATH to workspace directory. See https://golang.org/doc/code.html#Workspaces and https://golang.org/doc/install#testing
+    Move entire directory to $GOPATH/src
+    Then do
+        cd $GOPATH/src/compiler/
+        go build
